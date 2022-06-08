@@ -1,0 +1,48 @@
+/*
+font-family: 'Akshar', sans-serif; //normal
+font-family: 'Indie Flower', cursive; //pies de foto
+font-family: 'Ms Madi', cursive; //titulos
+*/
+@import './variables.scss';
+
+
+
+figure{
+    text-align: center;
+    img{
+        width:100%;
+        height:auto;
+        border-radius: 100px;
+    }
+    figcaption{
+        font-family: 'Indie Flower', cursive;
+    } 
+}
+
+
+article{
+    
+    font-family: 'Akshar', sans-serif;
+    color: $colorLetra;
+ 
+    h2{
+        font-family: 'Ms Madi', cursive;
+        font-size: 2em;
+        color: $colorLetraResalte;
+    }
+}
+
+.imageToClip{
+    display: block;
+    margin:0 auto;
+    width: 70%;
+    height:auto;
+    clip-path: polygon(5% 5%, 30% 15%, 60% 0%, 100% 25%, 85% 60%,100% 100%,45% 50%,0% 75%,25% 33% );
+}
+
+
+iframe{
+    width:100%;
+}
+
+
