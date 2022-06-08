@@ -119,6 +119,10 @@ footer {
     width: 15%;
     height: auto;
   }
+
+  .footer__logo:hover {
+    transform: translateX(-80%)rotate(0deg);
+  }
 }
 
 /*# sourceMappingURL=index.dd7d1775.css.map */
