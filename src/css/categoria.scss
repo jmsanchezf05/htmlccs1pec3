@@ -1,3 +1,26 @@
+
+
+@import 'variables.scss';
+/* se pretence un stack en movil a ancho completo y una caja centrada en pantalla grande */
+
+a{
+    display:block;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: $colorLetraInverso;
+    padding-top:0.5em;
+    
+    &:hover{
+        color:$colorLetraResalte;
+        //transform: translateX(10%);
+        //padding-left:3em;;
+    }
+  }
+  
+
+
+
+
 article{
     background-image: url("../img/nikolaTesla_opacity.png");
     background-repeat: no-repeat;
@@ -7,18 +30,12 @@ article{
 }
 
 
-
-
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: $anchomediaquery){
 
     article{
-        background-image: none;
+       max-width:60%;
+       margin:0 auto;
+       //background-color: yellowgreen;
     }
-    body{
-        background-image: url("../img/nikolaTesla_opacity.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:auto;
-    
-    }
+ 
 }

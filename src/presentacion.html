@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estructura.scss">
-    <link rel="stylesheet" href="css/presentacion.scss">
+    <link rel="stylesheet" href="css/wireframe.scss">
+    <link rel="stylesheet" href="./css/header.scss">
+    <link rel="stylesheet" href="./css/footer.scss">
+    <link rel="stylesheet" href="./css/presentacion.scss">
     <script defer src="js/scripts.js"></script>
     <title>Presentación</title>
 </head>
@@ -17,18 +19,25 @@
 
     <article>
         <div class="caja0">
-            <h1>Presentación</h1>
+            <h1 class="titulo">Presentación</h1>
         </div>
 
         <div class="caja1">
-           <!-- <iframe src="https://www.youtube.com/embed/g1UV8FGnToo" title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>-->
-         <!--   <img loading="lazy"  class="caja1__logo" src="./img/logo.svg" alt="logotipo"> </img>-->
+            <svg class="header__logo"  xmlns="http://www.w3.org/2000/svg">
+                <circle r="5" fill="red">
+                    <animateMotion dur="5s" repeatCount="indefinite"
+                        path="M100,110 C20,-50 180,150 180,50 C180,-50 20,150 20,50 z" />
+                </circle>
+                <circle r="5" fill="yellow">
+                    <animateMotion dur="10s" repeatCount="indefinite" path="M10,65 H 50 z" />
+                </circle>
+                <circle r="5" fill="lightgreen">
+                    <animateMotion dur="3s" repeatCount="indefinite" path="M120,110  H 170 z" />
+                </circle>
+            </svg>
         </div>
 
-        <div class="caja2">
+        <div class="caja2 texto">
             <p>Realizaremos el portal biográfico de Nikola Tesla. En esta página damos un pequeño repaso a su vida que
                 se detalla mas detenidamente en las páginas de detalles a través de la página de enlaces. </p>
 

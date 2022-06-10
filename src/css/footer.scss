@@ -1,68 +1,97 @@
 @import "variables.scss";
 
+
+a{
+    display:block;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: $colorLetraInverso;
+    padding-top:0.5em;
+    
+    &:hover{
+        color:$colorLetraResalte;
+        transform: translateX(10%);
+    }
+  }
+  
+
+
 footer{
+    padding-top:2em;
+    padding-bottom: 2em;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-  //  justify-content: left;
-  justify-content: space-between;  
-  align-items: flex-start;
-    color: $colorLetraInverso;
-    justify-content: space-between; 
-}
+    justify-content: space-around;
 
+    .footer__enlaces {
+        flex-basis: 100%;
+        text-align: left;
+        animation: bounceIn 2s;
 
-.footer__enlaces{
-    flex-basis: 100%;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-}
-
-
-.footer__enlaces a{
-    display:block;
-    text-align: left;
-    animation: bounceIn 2s;
-}
-
-.footer__cajaLogo{
-    width:100%;
-    display:none;
-}
-
-
-@media only screen and (min-width: 768px){
-    footer{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-content: flex-start;
-        color: $colorLetraInverso;
+        h2{
+            display: block;
+            background-color: black;
+            padding: 0;
+            border-radius: 50%;
+            text-align: center;
+        }
+        a{
+            padding-left: 5em;;
+        }
     }
-
-
     .footer__cajaLogo{
-        display:inline;
-        flex-basis:30%;
-        text-align: center;
-    }
-   
-    .footer__enlaces{
-        flex-basis: 70%;
-        display:flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+        overflow: hidden;
+        svg{
+            width:100%;
+            // background-color: yellow;
 
-    .footer__logo{
-        width:15%;
-        height: auto;
+           
+        }
     }
+}
 
-    .footer__logo:hover{
-        transform: translateX(-80%)  rotate(0deg);
+
+@media only screen and (min-width: $anchomediaquery ){
+
+    
+    footer{
+        div{
+            min-width: 30%;
+            min-width: 30%;
+            max-width: 3%;
+            padding:1em;
+          
+        }
+        .footer__enlaces{
+            min-width: 30%;
+            min-width: 30%;
+            max-width: 3%;
+            padding:1em;
+            border: 1px solid black;
+            border-radius: 10%;
+            background-color: $colorfondoTitulo;
+            h2{
+                padding: 0;
+                text-align: center;
+            }
+            a{
+                padding-left: 2em;
+                padding-right: 2em;
+            }
+        }
+        
+    }
+}
+
+
+@media only screen and (min-width: 1200px){
+    a{
+        padding-top:0.4em;
+    }
+    footer{
+        .footer__cajaLogo{
+          
+        }
     }
 }

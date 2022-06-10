@@ -1,0 +1,23 @@
+body{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+header{
+    flex-basis: 100%;
+    height: auto;
+   // background-color: yellow;
+}
+article{
+    flex-basis: 100%;
+    height: auto;
+    min-height: 55vh;
+    //background-color: green;
+}
+footer {
+    flex-basis: 100%;
+    height: auto;
+    //background-color: lightblue;
+}

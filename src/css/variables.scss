@@ -1,34 +1,59 @@
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
 @import url('https://fonts.googleapis.com/css2?family=Akshar&family=Indie+Flower&family=Ms+Madi&display=swap');
 
+
 $colorFondo: rgb(90,97,97);
-$colorLetra: rgb(216, 209, 106);
+$colorLetra: rgb(0, 0, 0);
 $colorLetraResalte: white;
 $colorLetraInverso: rgb(233, 229, 173);
 $colorBackNav: rgb(168, 168, 162);
+$colorfondoTitulo: rgb(101, 101, 151);
 
+$anchomediaquery: 768px;
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
 
 body{
   background-color: $colorFondo;
 }
+
+.titulo,
 h1{
   font-family: 'Ms Madi', cursive;
-  font-size: 2em;
+  font-size: 4em;
   text-align: center;
   color: $colorLetraResalte;
 }
-a{
-  text-decoration: none;
-  font-size: 1em;
-  color: $colorLetraInverso;
-  
-  &:hover{
-      color:$colorLetraResalte;
-      transform: translateX(20%);
-  }
+
+.subtitulo,
+h2{
+  font-family: 'Ms Madi', cursive;
+  font-size: 2em;
+  color: $colorLetraResalte;
 }
 
-/* definimos la animacion*/
+.texto{
+  font-family: 'Akshar', sans-serif;
+  color: $colorLetra;
+  font-size: large;
+}
+
+
+figcaption{
+  font-family: 'Indie Flower', cursive;
+} 
+
+
+
+
+
+
+
+/* definimos las animaciones y translates*/
 @keyframes bounceIn {
     0% {
       transform: scale(0.1);
@@ -72,4 +97,19 @@ a{
       opacity: 0.5;
   }
   
+}
+
+@keyframes tamaño {
+  0%{
+    opacity:1;
+    width:50%;
+  }
+  50%{
+    opacity:0.2;
+    width:40%;
+  }
+  100%{
+    opacity:1;
+    width:50%;
+  }
 }
