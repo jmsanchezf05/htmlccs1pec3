@@ -1,0 +1,167 @@
+@import "https://fonts.googleapis.com/css2?family=Akshar&family=Indie+Flower&family=Ms+Madi&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #5a6161;
+}
+
+.titulo, h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Ms Madi, cursive;
+  font-size: 4em;
+}
+
+.subtitulo, h2 {
+  color: #fff;
+  font-family: Ms Madi, cursive;
+  font-size: 2em;
+}
+
+.texto {
+  color: #000;
+  font-family: Akshar, sans-serif;
+  font-size: large;
+}
+
+figcaption {
+  font-family: Indie Flower, cursive;
+}
+
+.amplia {
+  background-color: #000;
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(.1);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes giros {
+  0% {
+    opacity: 0;
+    transform: translateX(0)rotate(0deg);
+  }
+
+  25% {
+    opacity: .5;
+    transform: translateX(25vw)rotate(0deg);
+  }
+
+  40% {
+    opacity: .2;
+    transform: translateX(25vw)translateY(25vh)rotate(75deg);
+  }
+
+  65% {
+    opacity: .6;
+    transform: translateX(75vw)translateY(60vh)rotate(-25deg);
+  }
+
+  85% {
+    opacity: .2;
+    transform: translateX(25vw)translateY(40vh)rotate(-25deg);
+  }
+
+  100% {
+    opacity: .5;
+  }
+}
+
+@keyframes tamaño {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .2;
+    transform: rotate(360deg);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.foto {
+  text-align: center;
+}
+
+.foto img {
+  width: 30%;
+  border-radius: 40px;
+  margin: 0 auto;
+  padding-top: 2em;
+  display: block;
+}
+
+.caja2 {
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.caja2 .foto2 {
+  text-align: center;
+  width: 60%;
+  background-color: #fff;
+  border-radius: 50px;
+  margin: 1em auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: block;
+}
+
+.caja2 .foto2 img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .foto img {
+    width: 85%;
+  }
+
+  .caja2 .foto2 {
+    width: 30%;
+  }
+}
+
+article {
+  flex-flow: wrap;
+  display: flex;
+}
+
+.caja0, .caja1, .caja2 {
+  flex-basis: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .caja0 {
+    flex-basis: 100%;
+  }
+
+  .caja1 {
+    flex-basis: 35%;
+  }
+
+  .caja2 {
+    flex-basis: 65%;
+  }
+}
+
+/*# sourceMappingURL=detalle_semblanzaGeneral.f403322c.css.map */

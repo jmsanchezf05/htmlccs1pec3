@@ -4,8 +4,8 @@
 /* la estructura del articulo será una caja con margen a los lados en pantalla grande y un stack en movil*/
 
 article{
-    margin-left: 5em;
-    margin-right: em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 @media only screen and (min-width: $anchomediaquery){

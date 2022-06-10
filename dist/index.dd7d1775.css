@@ -1,0 +1,187 @@
+@import "https://fonts.googleapis.com/css2?family=Akshar&family=Indie+Flower&family=Ms+Madi&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #5a6161;
+}
+
+.titulo, h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Ms Madi, cursive;
+  font-size: 4em;
+}
+
+.subtitulo, h2 {
+  color: #fff;
+  font-family: Ms Madi, cursive;
+  font-size: 2em;
+}
+
+.texto {
+  color: #000;
+  font-family: Akshar, sans-serif;
+  font-size: large;
+}
+
+figcaption {
+  font-family: Indie Flower, cursive;
+}
+
+.amplia {
+  background-color: #000;
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(.1);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes giros {
+  0% {
+    opacity: 0;
+    transform: translateX(0)rotate(0deg);
+  }
+
+  25% {
+    opacity: .5;
+    transform: translateX(25vw)rotate(0deg);
+  }
+
+  40% {
+    opacity: .2;
+    transform: translateX(25vw)translateY(25vh)rotate(75deg);
+  }
+
+  65% {
+    opacity: .6;
+    transform: translateX(75vw)translateY(60vh)rotate(-25deg);
+  }
+
+  85% {
+    opacity: .2;
+    transform: translateX(25vw)translateY(40vh)rotate(-25deg);
+  }
+
+  100% {
+    opacity: .5;
+  }
+}
+
+@keyframes tamaño {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .2;
+    transform: rotate(360deg);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+a {
+  color: #e9e5ad;
+  padding-top: .5em;
+  font-size: 1.3em;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  color: #fff;
+  transform: translateY(-.3em);
+}
+
+footer {
+  flex-flow: wrap;
+  justify-content: space-around;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: flex;
+}
+
+footer .footer__enlaces {
+  text-align: left;
+  flex-basis: 100%;
+  animation: bounceIn 2s;
+}
+
+footer .footer__enlaces h2 {
+  text-align: center;
+  background-color: #000;
+  border-radius: 50%;
+  padding: 0;
+  display: block;
+}
+
+footer .footer__enlaces a {
+  padding-left: 5em;
+}
+
+footer .footer__cajaLogo {
+  overflow: hidden;
+}
+
+footer .footer__cajaLogo svg {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  a:hover {
+    transform: translateX(2em);
+  }
+
+  footer div {
+    min-width: 30%;
+    min-width: 30%;
+    max-width: 3%;
+    padding: 1em;
+  }
+
+  footer .footer__enlaces {
+    min-width: 30%;
+    min-width: 30%;
+    max-width: 3%;
+    background-color: #656597;
+    border: 1px solid #000;
+    border-radius: 10%;
+    padding: 1em;
+  }
+
+  footer .footer__enlaces h2 {
+    text-align: center;
+    padding: 0;
+  }
+
+  footer .footer__enlaces a {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  a {
+    padding-top: .4em;
+  }
+}
+
+/*# sourceMappingURL=index.dd7d1775.css.map */

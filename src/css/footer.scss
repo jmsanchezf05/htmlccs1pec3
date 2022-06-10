@@ -10,7 +10,7 @@ a{
     
     &:hover{
         color:$colorLetraResalte;
-        transform: translateX(10%);
+        transform: translateY(-0.3em);
     }
   }
   
@@ -53,7 +53,12 @@ footer{
 
 
 @media only screen and (min-width: $anchomediaquery ){
-
+    a{     
+        &:hover{
+            transform: translateX(2em);
+        }
+      }
+      
     
     footer{
         div{
