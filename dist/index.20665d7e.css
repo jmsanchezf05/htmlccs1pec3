@@ -8033,10 +8033,13 @@ header {
 }
 
 .header__logo {
-  background-image: url("logo.8bb9af93.svg");
-  background-repeat: no-repeat;
-  background-size: auto 100%;
+  text-align: center;
   flex-basis: 100%;
+}
+
+.header__logo img {
+  width: 30%;
+  animation: tamaño 10s infinite;
 }
 
 .header__cajaTitulo {
@@ -8053,12 +8056,8 @@ header {
 
 @media only screen and (min-width: 768px) {
   .header__logo {
+    text-align: left;
     flex-basis: 20%;
-  }
-
-  .header__logo img {
-    width: 30%;
-    animation: tamaño 10s infinite;
   }
 
   .header__cajaTitulo {
