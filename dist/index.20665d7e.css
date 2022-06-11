@@ -1,4 +1,3 @@
-@import "https://fonts.googleapis.com/css2?family=Akshar&family=Indie+Flower&family=Ms+Madi&display=swap";
 .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
   font-weight: var(--fa-style, 900);
@@ -7924,6 +7923,54 @@
   font-display: block;
   src: url("fa-v4compatibility.fd23dd3a.woff2") format("woff2"), url("fa-v4compatibility.ff721ea1.ttf") format("truetype");
   unicode-range: U+F041, U+F047, U+F065-F066, U+F07D-F07E, U+F080, U+F08B, U+F08E, U+F090, U+F09A, U+F0AC, U+F0AE, U+F0B2, U+F0D0, U+F0D6, U+F0E4, U+F0EC, U+F10A-F10B, U+F123, U+F13E, U+F148-F149, U+F14C, U+F156, U+F15E, U+F160-F161, U+F163, U+F175-F178, U+F195, U+F1F8, U+F219, U+F250, U+F252, U+F27A;
+}
+
+@font-face {
+  font-family: Akshar;
+  font-style: normal;
+  font-weight: 400;
+  src: url("akshar-v2-latin-regular.18c40309.eot");
+  src: local(""), url("akshar-v2-latin-regular.18c40309.eot#iefix") format("embedded-opentype"), url("akshar-v2-latin-regular.a5619648.woff2") format("woff2"), url("akshar-v2-latin-regular.2327e6c3.woff") format("woff"), url("akshar-v2-latin-regular.88df2f88.ttf") format("truetype"), url("akshar-v2-latin-regular.2ede249b.svg#Akshar") format("svg");
+}
+
+@font-face {
+  font-family: Akshar;
+  font-style: normal;
+  font-weight: 500;
+  src: url("akshar-v2-latin-500.3e2c7f01.eot");
+  src: local(""), url("akshar-v2-latin-500.3e2c7f01.eot#iefix") format("embedded-opentype"), url("akshar-v2-latin-500.90c3f276.woff2") format("woff2"), url("akshar-v2-latin-500.c2b554f6.woff") format("woff"), url("akshar-v2-latin-500.cbd950d8.ttf") format("truetype"), url("akshar-v2-latin-500.0cd8e786.svg#Akshar") format("svg");
+}
+
+@font-face {
+  font-family: Akshar;
+  font-style: normal;
+  font-weight: 700;
+  src: url("akshar-v2-latin-700.fd1f2593.eot");
+  src: local(""), url("akshar-v2-latin-700.fd1f2593.eot#iefix") format("embedded-opentype"), url("akshar-v2-latin-700.1e976234.woff2") format("woff2"), url("akshar-v2-latin-700.72b97c43.woff") format("woff"), url("akshar-v2-latin-700.dc90ab6e.ttf") format("truetype"), url("akshar-v2-latin-700.aa0d41b9.svg#Akshar") format("svg");
+}
+
+@font-face {
+  font-family: Akshar;
+  font-style: normal;
+  font-weight: 600;
+  src: url("akshar-v2-latin-600.ff4b8f53.eot");
+  src: local(""), url("akshar-v2-latin-600.ff4b8f53.eot#iefix") format("embedded-opentype"), url("akshar-v2-latin-600.868124ff.woff2") format("woff2"), url("akshar-v2-latin-600.d8739be3.woff") format("woff"), url("akshar-v2-latin-600.42b3745b.ttf") format("truetype"), url("akshar-v2-latin-600.31cc4fb5.svg#Akshar") format("svg");
+}
+
+@font-face {
+  font-family: Indie Flower;
+  font-style: normal;
+  font-weight: 400;
+  src: url("indie-flower-v17-latin-regular.d81f79b6.eot");
+  src: local(""), url("indie-flower-v17-latin-regular.d81f79b6.eot#iefix") format("embedded-opentype"), url("indie-flower-v17-latin-regular.4c58d572.woff2") format("woff2"), url("indie-flower-v17-latin-regular.fe9545c0.woff") format("woff"), url("indie-flower-v17-latin-regular.a7a2363f.ttf") format("truetype"), url("indie-flower-v17-latin-regular.8bc37e0e.svg#IndieFlower") format("svg");
+}
+
+@font-face {
+  font-family: Ms Madi;
+  font-style: normal;
+  font-weight: 400;
+  src: url("ms-madi-v2-latin-regular.dc03695d.eot");
+  src: local(""), url("ms-madi-v2-latin-regular.dc03695d.eot#iefix") format("embedded-opentype"), url("ms-madi-v2-latin-regular.37d5978f.woff2") format("woff2"), url("ms-madi-v2-latin-regular.5397f75e.woff") format("woff"), url("ms-madi-v2-latin-regular.b441d519.ttf") format("truetype"), url("ms-madi-v2-latin-regular.9ae8b7a9.svg#MsMadi") format("svg");
 }
 
 * {

@@ -1,0 +1,81 @@
+/*herramienta para bajar fuentes a local https://google-webfonts-helper.herokuapp.com/fonts/indie-flower?subsets=latin*/
+/* akshar-regular - latin */
+@font-face {
+  font-family: 'Akshar';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/akshar-v2-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/akshar-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/akshar-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/akshar-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/akshar-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/akshar-v2-latin-regular.svg#Akshar') format('svg'); /* Legacy iOS */
+}
+/* akshar-500 - latin */
+@font-face {
+  font-family: 'Akshar';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/akshar-v2-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/akshar-v2-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/akshar-v2-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/akshar-v2-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/akshar-v2-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/akshar-v2-latin-500.svg#Akshar') format('svg'); /* Legacy iOS */
+}
+/* akshar-700 - latin */
+@font-face {
+  font-family: 'Akshar';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/akshar-v2-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/akshar-v2-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/akshar-v2-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/akshar-v2-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/akshar-v2-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/akshar-v2-latin-700.svg#Akshar') format('svg'); /* Legacy iOS */
+}
+/* akshar-600 - latin */
+@font-face {
+  font-family: 'Akshar';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/akshar-v2-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/akshar-v2-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/akshar-v2-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/akshar-v2-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/akshar-v2-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/akshar-v2-latin-600.svg#Akshar') format('svg'); /* Legacy iOS */
+}
+
+/* indie-flower-regular - latin */
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/indie-flower-v17-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/indie-flower-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/indie-flower-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/indie-flower-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/indie-flower-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/indie-flower-v17-latin-regular.svg#IndieFlower') format('svg'); /* Legacy iOS */
+}
+
+/* ms-madi-regular - latin */
+@font-face {
+  font-family: 'Ms Madi';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/ms-madi-v2-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/ms-madi-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ms-madi-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/ms-madi-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/ms-madi-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ms-madi-v2-latin-regular.svg#MsMadi') format('svg'); /* Legacy iOS */
+}

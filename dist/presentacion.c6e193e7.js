@@ -38,4 +38,4 @@ const redimensionaElSVGBOX = ( porcentaje)=>{
 };
 window.addEventListener('load', main);
 
-//# sourceMappingURL=index.c6e193e7.js.map
+//# sourceMappingURL=presentacion.c6e193e7.js.map
