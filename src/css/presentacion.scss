@@ -8,6 +8,13 @@ article{
     margin-right: 2em;
 }
 
+.caja1{
+    background-image: url("../img/logo.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+}
+
 @media only screen and (min-width: $anchomediaquery){
     article{
         margin-left: 15%;

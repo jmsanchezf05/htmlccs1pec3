@@ -99,13 +99,14 @@ figcaption {
 
 .foto {
   text-align: center;
+  padding-top: 2em;
 }
 
 .foto img {
   width: 30%;
+  height: auto;
   border-radius: 40px;
   margin: 0 auto;
-  padding-top: 2em;
   display: block;
 }
 
@@ -128,6 +129,7 @@ figcaption {
 
 .caja2 .foto2 img {
   width: 100%;
+  height: auto;
 }
 
 @media only screen and (min-width: 768px) {

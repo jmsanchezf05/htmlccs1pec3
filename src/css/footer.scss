@@ -26,7 +26,7 @@ footer{
 
     .footer__enlaces {
         flex-basis: 100%;
-        text-align: left;
+        text-align: center;
         animation: bounceIn 2s;
 
         h2{
@@ -37,7 +37,7 @@ footer{
             text-align: center;
         }
         a{
-            padding-left: 5em;;
+            //padding-left: 5em;
         }
     }
     .footer__cajaLogo{
@@ -76,6 +76,7 @@ footer{
             border: 1px solid black;
             border-radius: 10%;
             background-color: $colorfondoTitulo;
+            
             h2{
                 padding: 0;
                 text-align: center;

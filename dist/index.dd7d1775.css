@@ -119,7 +119,7 @@ footer {
 }
 
 footer .footer__enlaces {
-  text-align: left;
+  text-align: center;
   flex-basis: 100%;
   animation: bounceIn 2s;
 }
@@ -130,10 +130,6 @@ footer .footer__enlaces h2 {
   border-radius: 50%;
   padding: 0;
   display: block;
-}
-
-footer .footer__enlaces a {
-  padding-left: 5em;
 }
 
 footer .footer__cajaLogo {

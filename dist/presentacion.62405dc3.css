@@ -102,6 +102,12 @@ article {
   margin-right: 2em;
 }
 
+.caja1 {
+  background-image: url("logo.8bb9af93.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
 @media only screen and (min-width: 768px) {
   article {
     margin-left: 15%;

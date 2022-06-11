@@ -2,10 +2,11 @@
 
 .foto{
     text-align: center;
+    padding-top:2em;
 }
 .foto img{
-    padding-top:2em;
     width:30%;
+    height:auto;
     display: block;
     margin:0 auto;
     border-radius: 40px;
@@ -30,6 +31,7 @@
 
         img{
             width:100%;
+            height:auto;
         }
     }    
 }
