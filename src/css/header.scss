@@ -26,10 +26,10 @@
  
     .header__titulo{
         font-family: 'Ms Madi', cursive;
-        font-size: 1.8em;
+        font-size: 1.7em;
         color: $colorLetraResalte;
-        animation: bounceIn 2s;
-        animation-delay: 1s;
+        animation: bounceIn 1.5s;
+        animation-delay: 0.5s;
     }
 
 @media only screen and (min-width: $anchomediaquery){

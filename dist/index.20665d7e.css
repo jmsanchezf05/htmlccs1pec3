@@ -8050,8 +8050,8 @@ header {
 .header__titulo {
   color: #fff;
   font-family: Ms Madi, cursive;
-  font-size: 1.8em;
-  animation: bounceIn 2s 1s;
+  font-size: 1.7em;
+  animation: bounceIn 1.5s .5s;
 }
 
 @media only screen and (min-width: 768px) {
