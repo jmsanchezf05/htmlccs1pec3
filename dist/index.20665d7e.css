@@ -8038,6 +8038,7 @@ header {
 }
 
 .header__logo img {
+  width: 30%;
   animation: tamaño 10s infinite;
 }
 
