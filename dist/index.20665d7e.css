@@ -8050,7 +8050,7 @@ header {
 .header__titulo {
   color: #fff;
   font-family: Ms Madi, cursive;
-  font-size: 1.7em;
+  font-size: 1.3em;
   animation: bounceIn 1.5s .5s;
 }
 
@@ -8065,7 +8065,7 @@ header {
   }
 
   .header__titulo {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 }
 
